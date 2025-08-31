@@ -45,7 +45,7 @@ client
 
 app.get("/", (req, res) => {
   redisClient.set("products", "products...");
-  res.send("<h1>Hello Tresmerge, From AWS </h1>");
+  res.send("<h1>Hello Tresmerge, From AWS, Using Docker hub </h1>");
 });
 
 app.get("/data", async (req, res) => {
